@@ -1,0 +1,55 @@
+.attribution {
+    font-size: 0.6875rem; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    font-size: 15px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+}
+
+.box {
+    margin: 10px;
+    width: 25rem;
+    height: 10rem;
+    border: 5px solid hsl(300, 43%, 22%);
+    background-color: hsl(300, 43%, 22%);
+    display: flex;
+    gap: 1.5rem;
+}
+
+.inside-box-left {
+    width: 5rem;
+}
+
+.inside-box {
+    
+}
+
+.box h2 {
+    color: hsl(300, 24%, 96%);
+    font-family: League;
+    margin: 0;
+}
+
+.box p {
+    color: hsl(300, 24%, 96%);
+    font-family: ;
+    margin: 0;
+}
+
+.box h3 {
+    color: hsl(303, 10%, 53%);
+    font-family: ;
+    margin-top: 5px;
+}
