@@ -7,19 +7,32 @@
 }
 
 body {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 15px;
+    font-family: "League Spartan", sans-serif;
 }
 
 img {
-    border-radius: 50px;
+    border-radius: 50rem;
 }
 
 h1 {
+    padding: 7rem 0 0 7rem;
+    font-size: 4rem;
     color: hsl(300, 43%, 22%);
+    width: 28rem;
+}
+
+h1 + p {
+    color: hsl(303, 10%, 53%);
+    padding: 0 0 0 7rem;
+    font-size: 1.1rem;
+    width: 25rem;
 }
 
 .box {
-    margin: 10px;
+    margin: 1px;
     width: 25rem;
     height: 10rem;
     border: 5px solid hsl(300, 43%, 22%);
@@ -29,27 +42,36 @@ h1 {
 }
 
 .inside-box-left {
-    width: 5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .inside-box {
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .box h2 {
     color: hsl(300, 24%, 96%);
-    font-family: League;
     margin: 0;
 }
 
 .box p {
     color: hsl(300, 24%, 96%);
-    font-family: ;
     margin: 0;
 }
 
 .box h3 {
     color: hsl(303, 10%, 53%);
-    font-family: ;
     margin-top: 5px;
+}
+
+.box-top {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    border: 5px solid green;
+    width: 15%;
+    margin: 0 0 0 auto
 }
