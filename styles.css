@@ -117,7 +117,7 @@ h1 + p {
     margin: 15% 20%;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
     body {
         display: flex;
         flex-direction: column;
@@ -134,5 +134,5 @@ h1 + p {
         display: flex;
         flex-direction: column;
     }
-    
+
 }
